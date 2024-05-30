@@ -10,21 +10,29 @@
     <meta name="description" content="Web development system diplom ajil" />
     <title>WebEd</title>
 
-    <!-- Style -->
+    <link rel="icon" type="image/x-icon" href="../assets/imgs/main/logoIcon.PNG">
     <link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/media.css">
     <link rel="shortcut icon" href="#" />
-    <link rel="icon" type="image/x-icon" href="../assets/imgs/main/logoIcon.PNG">
 
     <script type="module" src="../assets/js/Controllers/navigatDragAndDropController.js" defer></script>
     <script type="module" src="../assets/js/Controllers/elementSizeChangeController.js" defer></script>
     <script type="text/javascript" src="../assets/js/Controllers/dataLogic.js" defer></script>
     <script src="../assets/js/Controllers/documentObjectModelController.js" defer></script>
-
+    
+    <script src="../assets/js/Controllers/instructionModalControl.js" defer></script>
 </head>
 
 <body>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="text">Веб хөгжүүлэлтийн системд тавтай морилно уу <br> танд гүйцэтгэж болох үйлдлүүдийг танилцуулъя<br> тайлбар үзэхээр бол (x) дарна уу үгүй бол цонхны гадна дарна уу</p>
+            <img id="imgIns" src="../assets/imgs/main/welcome.png">
+        </div>
+      </div>
+      
     <header class="head">
         <h2></h2>
         <div class="navigationMain">

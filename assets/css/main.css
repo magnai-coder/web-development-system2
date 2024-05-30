@@ -643,3 +643,53 @@ h2 {
     display: inline;
     position: relative;
 }
+
+
+.modal {
+    display: flex; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    justify-content: center;
+    background-color: #292929;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  .modal-content p{
+    color: white;
+     text-align: center;
+     font-family: "Pretendard";
+     font-weight: 400;
+     font-size: 14px;
+     margin: 10px;
+  }
+  .modal-content img{
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #a89f9f;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #faf8f8;
+    text-decoration: none;
+    cursor: pointer;
+  }
