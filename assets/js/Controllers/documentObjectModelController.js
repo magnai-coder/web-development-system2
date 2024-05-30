@@ -18,6 +18,6 @@ function downloading() {
 }
 function reloadFrame(){
     const page = document.getElementById("render").contentWindow.document.getElementById("whitePage");
-    page.removeChild(page.firstChild);
+    page.innerHTML = "";
     sessionStorage.clear();
 }
