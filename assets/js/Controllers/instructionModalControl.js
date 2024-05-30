@@ -6,7 +6,7 @@ var count = 0;
 
 
 const sources = [
-    "../assets/imgs/main/partsIn.PNG",
+    "../assets/imgs/main/parts.PNG",
     "../assets/imgs/main/buttons.PNG",
     "../assets/imgs/main/addingComponent.PNG",
     "../assets/imgs/main/drag.PNG",
